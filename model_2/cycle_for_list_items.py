@@ -6,7 +6,7 @@ for item in numbers:
     if item not in [0, 1]:
         is_prime = True
         for i in range(2, item):
-            if i != item and item % i == 0:
+            if item % i == 0:
                 is_prime = False
                 break
 
