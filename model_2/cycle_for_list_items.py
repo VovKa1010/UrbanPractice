@@ -15,5 +15,5 @@ for item in numbers:
         else:
             not_primes.append(item)
 
-print(primes)
-print(not_primes)
+print("Primes:", primes)
+print("Not primes:", not_primes)
