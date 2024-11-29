@@ -3,8 +3,7 @@ def calculate_structure_sum(structure) -> int:
 
     for item in structure:
         if isinstance(item, dict):
-            res += calculate_structure_sum(item.values())
-            res += calculate_structure_sum(item.keys())
+            res += calculate_structure_sum(item.items())
 
         if isinstance(item, (list, tuple, set)):
             res += calculate_structure_sum(item)
