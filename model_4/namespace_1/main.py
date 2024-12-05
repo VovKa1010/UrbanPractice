@@ -9,4 +9,3 @@ test_function()
 
 # выдаёт ошибку, не может найти эту функцию
 # inner_function()
-
